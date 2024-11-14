@@ -33,6 +33,9 @@ setup(
             'nvidia-smi.l4=nvsim.L4_smi:main',
             'deviceQuery.l4=nvsim.L4_deviceQuery:main',
 
+            'nvidia-smi.a100=nvsim.A100SXMx4_smi:main',  # 4 devices
+            'deviceQuery.a100=nvsim.A100SXMx4_deviceQuery:main', # 4 devices
+
             'rocm-smi=nvsim.MI300X_smi:main',
             'deviceQuery.mi300x=nvsim.MI300X_deviceQuery:main',
         ],
