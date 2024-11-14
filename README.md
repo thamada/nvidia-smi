@@ -16,6 +16,11 @@ nvidia-smi
 nvidia-smi -a
 deviceQuery
 rocm-smi
+
+
+nvidia-smi.h100x8
+nvidia-smi.rtx2000ada
+deviceQuery.rtx2000ada
 deviceQuery.mi300x
 ```
 
