@@ -23,12 +23,14 @@ nvidia-smi.rtx4000ada
 nvidia-smi.rtx4060ti
 nvidia-smi.rtx4090
 nvidia-smi.l40s
+nvidia-smi.l4
 deviceQuery.h100x8
 deviceQuery.rtx2000ada
 deviceQuery.rtx4000ada
 deviceQuery.rtx4060ti
 deviceQuery.rtx4090
 deviceQuery.l40s
+deviceQuery.l4
 deviceQuery.mi300x
 ```
 

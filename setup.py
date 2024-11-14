@@ -30,6 +30,9 @@ setup(
             'nvidia-smi.l40s=nvsim.L40S_smi:main',
             'deviceQuery.l40s=nvsim.L40S_deviceQuery:main',
 
+            'nvidia-smi.l4=nvsim.L4_smi:main',
+            'deviceQuery.l4=nvsim.L4_deviceQuery:main',
+
             'rocm-smi=nvsim.MI300X_smi:main',
             'deviceQuery.mi300x=nvsim.MI300X_deviceQuery:main',
         ],
