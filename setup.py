@@ -27,6 +27,9 @@ setup(
             'nvidia-smi.rtx4090=nvsim.RTX4090_smi:main',  # 8 devices
             'deviceQuery.rtx4090=nvsim.RTX4090_deviceQuery:main', # 8 devices
 
+            'nvidia-smi.l40s=nvsim.L40S_smi:main',
+            'deviceQuery.l40s=nvsim.L40S_deviceQuery:main',
+
             'rocm-smi=nvsim.MI300X_smi:main',
             'deviceQuery.mi300x=nvsim.MI300X_deviceQuery:main',
         ],
