@@ -15,6 +15,8 @@ then, you can use the following commands:
 nvidia-smi
 nvidia-smi -a
 deviceQuery
+rocm-smi
+deviceQuery.mi300x
 ```
 
 
