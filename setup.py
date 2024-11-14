@@ -36,6 +36,9 @@ setup(
             'nvidia-smi.a100=nvsim.A100SXMx4_smi:main',  # 4 devices
             'deviceQuery.a100=nvsim.A100SXMx4_deviceQuery:main', # 4 devices
 
+            'nvidia-smi.rtx3090=nvsim.RTX3090_smi:main',  # 2 devices
+            'deviceQuery.rtx3090=nvsim.RTX3090_deviceQuery:main', # 2 devices
+
             'rocm-smi=nvsim.MI300X_smi:main',
             'deviceQuery.mi300x=nvsim.MI300X_deviceQuery:main',
         ],
