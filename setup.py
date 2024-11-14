@@ -24,6 +24,9 @@ setup(
             'nvidia-smi.rtx4000ada=nvsim.RTX4000Ada_smi:main',
             'deviceQuery.rtx4000ada=nvsim.RTX4000Ada_deviceQuery:main',
 
+            'nvidia-smi.rtx6000ada=nvsim.RTX6000Ada_x8_smi:main', # 8 devices
+            'deviceQuery.rtx6000ada=nvsim.RTX6000Ada_x8_deviceQuery:main', # 8 devices
+
             'nvidia-smi.rtx4060ti=nvsim.RTX4060Ti_smi:main',
             'deviceQuery.rtx4060ti=nvsim.RTX4060Ti_deviceQuery:main',
 

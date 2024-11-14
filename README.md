@@ -23,6 +23,7 @@ nvidia-smi.h100
 nvidia-smi.h100nvl
 nvidia-smi.rtx2000ada
 nvidia-smi.rtx4000ada
+nvidia-smi.rtx6000ada
 nvidia-smi.rtx4060ti
 nvidia-smi.rtx4090
 nvidia-smi.rtx3090
@@ -34,6 +35,7 @@ deviceQuery.h100
 deviceQuery.h100nvl
 deviceQuery.rtx2000ada
 deviceQuery.rtx4000ada
+deviceQuery.rtx6000ada
 deviceQuery.rtx4060ti
 deviceQuery.rtx4090
 deviceQuery.rtx3090
