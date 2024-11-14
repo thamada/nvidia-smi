@@ -24,6 +24,9 @@ setup(
             'nvidia-smi.rtx4060ti=package.RTX4060Ti_smi:main',
             'deviceQuery.rtx4060ti=package.RTX4060Ti_deviceQuery:main',
 
+            'nvidia-smi.rtx4090=package.RTX4090_smi:main',  # 8 devices
+            'deviceQuery.rtx4090=package.RTX4090_deviceQuery:main', # 8 devices
+
             'rocm-smi=package.MI300X_smi:main',
             'deviceQuery.mi300x=package.MI300X_deviceQuery:main',
         ],
