@@ -11,6 +11,8 @@ setup(
         'console_scripts': [
             'nvidia-smi=package.H100SXMx8_smi:main',
             'deviceQuery=package.H100SXMx8_deviceQuery:main',
+            'rocm-smi=package.MI300X_smi:main',
+            'deviceQuery.mi300x=package.MI300X_deviceQuery:main',
         ],
     },
 )
