@@ -9,7 +9,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'nvidia-smi=package.main:main',  # nvidia-smiが実行可能なコマンド
+            'nvidia-smi=package.H100SXMx8_smi:main',
+            'deviceQuery=package.H100SXMx8_deviceQuery:main',
         ],
     },
 )
