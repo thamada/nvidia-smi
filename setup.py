@@ -15,8 +15,8 @@ setup(
             'nvidia-smi.h100x8=package.H100SXMx8_smi:main',
             'deviceQuery.h100x8=package.H100SXMx8_deviceQuery:main',
 
-            'nvidia-smi.rtx2000ada=package.RTX200Ada_smi:main',
-            'deviceQuery.rtx200ada=package.RTX200Ada_deviceQuery:main',
+            'nvidia-smi.rtx2000ada=package.RTX2000Ada_smi:main',
+            'deviceQuery.rtx2000ada=package.RTX2000Ada_deviceQuery:main',
 
             'rocm-smi=package.MI300X_smi:main',
             'deviceQuery.mi300x=package.MI300X_deviceQuery:main',
