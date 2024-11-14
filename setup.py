@@ -21,6 +21,9 @@ setup(
             'nvidia-smi.rtx4000ada=package.RTX4000Ada_smi:main',
             'deviceQuery.rtx4000ada=package.RTX4000Ada_deviceQuery:main',
 
+            'nvidia-smi.rtx4060ti=package.RTX4060Ti_smi:main',
+            'deviceQuery.rtx4060ti=package.RTX4060Ti_deviceQuery:main',
+
             'rocm-smi=package.MI300X_smi:main',
             'deviceQuery.mi300x=package.MI300X_deviceQuery:main',
         ],

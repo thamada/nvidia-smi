@@ -20,9 +20,11 @@ rocm-smi
 nvidia-smi.h100x8
 nvidia-smi.rtx2000ada
 nvidia-smi.rtx4000ada
+nvidia-smi.rtx4060ti
 deviceQuery.h100x8
 deviceQuery.rtx2000ada
 deviceQuery.rtx4000ada
+deviceQuery.rtx4060ti
 deviceQuery.mi300x
 ```
 
