@@ -18,6 +18,9 @@ setup(
             'nvidia-smi.rtx2000ada=package.RTX2000Ada_smi:main',
             'deviceQuery.rtx2000ada=package.RTX2000Ada_deviceQuery:main',
 
+            'nvidia-smi.rtx4000ada=package.RTX4000Ada_smi:main',
+            'deviceQuery.rtx4000ada=package.RTX4000Ada_deviceQuery:main',
+
             'rocm-smi=package.MI300X_smi:main',
             'deviceQuery.mi300x=package.MI300X_deviceQuery:main',
         ],
