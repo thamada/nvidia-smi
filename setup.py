@@ -9,26 +9,26 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'nvidia-smi=package.H100SXMx8_smi:main',
-            'deviceQuery=package.H100SXMx8_deviceQuery:main',
+            'nvidia-smi=nvsim.H100SXMx8_smi:main',
+            'deviceQuery=nvsim.H100SXMx8_deviceQuery:main',
 
-            'nvidia-smi.h100x8=package.H100SXMx8_smi:main',
-            'deviceQuery.h100x8=package.H100SXMx8_deviceQuery:main',
+            'nvidia-smi.h100x8=nvsim.H100SXMx8_smi:main',
+            'deviceQuery.h100x8=nvsim.H100SXMx8_deviceQuery:main',
 
-            'nvidia-smi.rtx2000ada=package.RTX2000Ada_smi:main',
-            'deviceQuery.rtx2000ada=package.RTX2000Ada_deviceQuery:main',
+            'nvidia-smi.rtx2000ada=nvsim.RTX2000Ada_smi:main',
+            'deviceQuery.rtx2000ada=nvsim.RTX2000Ada_deviceQuery:main',
 
-            'nvidia-smi.rtx4000ada=package.RTX4000Ada_smi:main',
-            'deviceQuery.rtx4000ada=package.RTX4000Ada_deviceQuery:main',
+            'nvidia-smi.rtx4000ada=nvsim.RTX4000Ada_smi:main',
+            'deviceQuery.rtx4000ada=nvsim.RTX4000Ada_deviceQuery:main',
 
-            'nvidia-smi.rtx4060ti=package.RTX4060Ti_smi:main',
-            'deviceQuery.rtx4060ti=package.RTX4060Ti_deviceQuery:main',
+            'nvidia-smi.rtx4060ti=nvsim.RTX4060Ti_smi:main',
+            'deviceQuery.rtx4060ti=nvsim.RTX4060Ti_deviceQuery:main',
 
-            'nvidia-smi.rtx4090=package.RTX4090_smi:main',  # 8 devices
-            'deviceQuery.rtx4090=package.RTX4090_deviceQuery:main', # 8 devices
+            'nvidia-smi.rtx4090=nvsim.RTX4090_smi:main',  # 8 devices
+            'deviceQuery.rtx4090=nvsim.RTX4090_deviceQuery:main', # 8 devices
 
-            'rocm-smi=package.MI300X_smi:main',
-            'deviceQuery.mi300x=package.MI300X_deviceQuery:main',
+            'rocm-smi=nvsim.MI300X_smi:main',
+            'deviceQuery.mi300x=nvsim.MI300X_deviceQuery:main',
         ],
     },
 )
