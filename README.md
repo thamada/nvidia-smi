@@ -1,55 +1,21 @@
-# nvidia-smi
+# NVIDIA-SMI (Repository Deprecated)
 
-an nvidia-smi simulator
+## Notice of Deprecation and Migration
 
+This repository, **`nvidia-smi`**, is no longer actively maintained and will be **deprecated**. 
 
-## Install
+We are migrating to a new repository with a different name to better align with our future plans and improvements. The new repository will be available at:
 
-```
-pip install git+https://github.com/thamada/nvidia-smi.git
-```
+**[gls: gpu list command tool](https://github.com/thamada/gls)**
 
-then, you can use the following commands:
+Please update your references and start using the new repository for the latest updates, features, and support.
 
-```
-nvidia-smi
-nvidia-smi -a
-deviceQuery
-rocm-smi
-rocminfo
+### Timeline
+- **Current Status**: Deprecated
+- **Final Archival Date**: 2024-11-15 (if applicable)
 
-nvidia-smi.a40
-nvidia-smi.a100
-nvidia-smi.h100
-nvidia-smi.h100nvl
-nvidia-smi.rtx2000ada
-nvidia-smi.rtx4000ada
-nvidia-smi.rtx6000ada
-nvidia-smi.rtx4060ti
-nvidia-smi.rtx4090
-nvidia-smi.rtx3090
-nvidia-smi.l40s
-nvidia-smi.l4
-deviceQuery.a40
-deviceQuery.a100
-deviceQuery.h100
-deviceQuery.h100nvl
-deviceQuery.rtx2000ada
-deviceQuery.rtx4000ada
-deviceQuery.rtx6000ada
-deviceQuery.rtx4060ti
-deviceQuery.rtx4090
-deviceQuery.rtx3090
-deviceQuery.l40s
-deviceQuery.l4
-deviceQuery.mi300x
-```
+After the archival date, this repository will remain accessible in read-only mode for historical reference but will no longer receive updates or support.
 
+### Thank You
+We appreciate your understanding and continued support as we transition to the new repository. Should you have any questions or require assistance, please reach out via the [Issues](https://github.com/thamada/gls/issues) section of the new repository.
 
-## Uninstall
-
-```
-pip uninstall gls
-```
-
-Enjoy!
