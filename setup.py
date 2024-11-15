@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="nvsim",
-    version="0.2",
+    name="gls",
+    version="1.0",
     packages=find_packages(),
     install_requires=[
         # 依存パッケージとそのバージョンを指定
