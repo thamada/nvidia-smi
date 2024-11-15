@@ -16,6 +16,7 @@ nvidia-smi
 nvidia-smi -a
 deviceQuery
 rocm-smi
+rocminfo
 
 nvidia-smi.a40
 nvidia-smi.a100

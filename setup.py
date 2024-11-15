@@ -48,8 +48,10 @@ setup(
             'nvidia-smi.a40=nvsim.A40x10_smi:main',  # 10 devices
             'deviceQuery.a40=nvsim.A40x10_deviceQuery:main', # 10 devices
 
-            'rocm-smi=nvsim.MI300X_smi:main',
-            'deviceQuery.mi300x=nvsim.MI300X_deviceQuery:main',
+            'rocm-smi=nvsim.MI300X_x4_smi:main', # 4 devices
+            'rocminfo=nvsim.MI300X_x4_rocminfo:main', # 4 devices
+            'deviceQuery.mi300x=nvsim.MI300X_x4_deviceQuery:main', # 4 devices
+
         ],
     },
 )
