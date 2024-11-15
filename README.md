@@ -49,7 +49,7 @@ deviceQuery.mi300x
 ## Uninstall
 
 ```
-pip uninstall nvidia-smi-simulator
+pip uninstall gls
 ```
 
 Enjoy!

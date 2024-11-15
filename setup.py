@@ -1,56 +1,62 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="nvidia-smi-simulator",
-    version="0.1",
+    name="nvsim",
+    version="0.2",
     packages=find_packages(),
     install_requires=[
-        # 依存パッケージをここに記述
+        # 依存パッケージとそのバージョンを指定
+        "pandas>=2.2.3",
+        "tabulate>=0.9.0",
+        "colorama>=0.4.6",
     ],
     entry_points={
         'console_scripts': [
-            'nvidia-smi=nvsim.H100SXMx8_smi:main',
-            'deviceQuery=nvsim.H100SXMx8_deviceQuery:main',
+            'nvidia-smi=gls.H100SXMx8_smi:main',
+            'deviceQuery=gls.H100SXMx8_deviceQuery:main',
 
-            'nvidia-smi.h100=nvsim.H100SXMx8_smi:main',
-            'deviceQuery.h100=nvsim.H100SXMx8_deviceQuery:main',
+            'nvidia-smi.h100=gls.H100SXMx8_smi:main',
+            'deviceQuery.h100=gls.H100SXMx8_deviceQuery:main',
 
-            'nvidia-smi.h100nvl=nvsim.H100NVLx2_smi:main', # 2 devices
-            'deviceQuery.h100nvl=nvsim.H100NVLx2_deviceQuery:main', # 2 devices
+            'nvidia-smi.h100nvl=gls.H100NVLx2_smi:main', # 2 devices
+            'deviceQuery.h100nvl=gls.H100NVLx2_deviceQuery:main', # 2 devices
 
-            'nvidia-smi.rtx2000ada=nvsim.RTX2000Ada_smi:main',
-            'deviceQuery.rtx2000ada=nvsim.RTX2000Ada_deviceQuery:main',
+            'nvidia-smi.rtx2000ada=gls.RTX2000Ada_smi:main',
+            'deviceQuery.rtx2000ada=gls.RTX2000Ada_deviceQuery:main',
 
-            'nvidia-smi.rtx4000ada=nvsim.RTX4000Ada_smi:main',
-            'deviceQuery.rtx4000ada=nvsim.RTX4000Ada_deviceQuery:main',
+            'nvidia-smi.rtx4000ada=gls.RTX4000Ada_smi:main',
+            'deviceQuery.rtx4000ada=gls.RTX4000Ada_deviceQuery:main',
 
-            'nvidia-smi.rtx6000ada=nvsim.RTX6000Ada_x8_smi:main', # 8 devices
-            'deviceQuery.rtx6000ada=nvsim.RTX6000Ada_x8_deviceQuery:main', # 8 devices
+            'nvidia-smi.rtx6000ada=gls.RTX6000Ada_x8_smi:main', # 8 devices
+            'deviceQuery.rtx6000ada=gls.RTX6000Ada_x8_deviceQuery:main', # 8 devices
 
-            'nvidia-smi.rtx4060ti=nvsim.RTX4060Ti_smi:main',
-            'deviceQuery.rtx4060ti=nvsim.RTX4060Ti_deviceQuery:main',
+            'nvidia-smi.rtx4060ti=gls.RTX4060Ti_smi:main',
+            'deviceQuery.rtx4060ti=gls.RTX4060Ti_deviceQuery:main',
 
-            'nvidia-smi.rtx4090=nvsim.RTX4090_smi:main', # 8 devices
-            'deviceQuery.rtx4090=nvsim.RTX4090_deviceQuery:main', # 8 devices
+            'nvidia-smi.rtx4090=gls.RTX4090_smi:main', # 8 devices
+            'deviceQuery.rtx4090=gls.RTX4090_deviceQuery:main', # 8 devices
 
-            'nvidia-smi.l40s=nvsim.L40S_smi:main',
-            'deviceQuery.l40s=nvsim.L40S_deviceQuery:main',
+            'nvidia-smi.l40s=gls.L40S_smi:main',
+            'deviceQuery.l40s=gls.L40S_deviceQuery:main',
 
-            'nvidia-smi.l4=nvsim.L4_smi:main',
-            'deviceQuery.l4=nvsim.L4_deviceQuery:main',
+            'nvidia-smi.l4=gls.L4_smi:main',
+            'deviceQuery.l4=gls.L4_deviceQuery:main',
 
-            'nvidia-smi.a100=nvsim.A100SXMx4_smi:main',  # 4 devices
-            'deviceQuery.a100=nvsim.A100SXMx4_deviceQuery:main', # 4 devices
+            'nvidia-smi.a100=gls.A100SXMx4_smi:main',  # 4 devices
+            'deviceQuery.a100=gls.A100SXMx4_deviceQuery:main', # 4 devices
 
-            'nvidia-smi.rtx3090=nvsim.RTX3090_smi:main',  # 2 devices
-            'deviceQuery.rtx3090=nvsim.RTX3090_deviceQuery:main', # 2 devices
+            'nvidia-smi.rtx3090=gls.RTX3090_smi:main',  # 2 devices
+            'deviceQuery.rtx3090=gls.RTX3090_deviceQuery:main', # 2 devices
 
-            'nvidia-smi.a40=nvsim.A40x10_smi:main',  # 10 devices
-            'deviceQuery.a40=nvsim.A40x10_deviceQuery:main', # 10 devices
+            'nvidia-smi.a40=gls.A40x10_smi:main',  # 10 devices
+            'deviceQuery.a40=gls.A40x10_deviceQuery:main', # 10 devices
 
-            'rocm-smi=nvsim.MI300X_x4_smi:main', # 4 devices
-            'rocminfo=nvsim.MI300X_x4_rocminfo:main', # 4 devices
-            'deviceQuery.mi300x=nvsim.MI300X_x4_deviceQuery:main', # 4 devices
+            'rocm-smi=gls.MI300X_x4_smi:main', # 4 devices
+            'rocminfo=gls.MI300X_x4_rocminfo:main', # 4 devices
+            'deviceQuery.mi300x=gls.MI300X_x4_deviceQuery:main', # 4 devices
+
+            # gls: gpu list
+            'gls=gls.gls:main', 
 
         ],
     },
