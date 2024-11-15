@@ -5,7 +5,9 @@ setup(
     version="0.1",
     packages=find_packages(),
     install_requires=[
-        # 依存パッケージをここに記述
+        # 必要なライブラリとそのバージョンを指定
+        "mdv>=1.7.4",
+        "requests>=2.32.3",
     ],
     entry_points={
         'console_scripts': [
@@ -52,6 +54,7 @@ setup(
             'rocminfo=nvsim.MI300X_x4_rocminfo:main', # 4 devices
             'deviceQuery.mi300x=nvsim.MI300X_x4_deviceQuery:main', # 4 devices
 
+            'nvsim=nvsim.help:main', # help
         ],
     },
 )
